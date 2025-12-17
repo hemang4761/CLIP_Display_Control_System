@@ -32,6 +32,10 @@ https://github.com/user-attachments/assets/639e24a6-889c-4259-ac94-159d52258094
 
 <h2> LED Control: MOSFET & PWM Dimming </h2>
 
+This part of the control system entails cross-fading orange and white LED strips. Because of the required 12V input voltage, controlled dimming has to be done over MOSFETs. An example circuit is shown below:
+
+![image (1)](https://github.com/user-attachments/assets/96d03b23-0db9-43dd-92f4-10b768418a0c)
+
 
 
 
