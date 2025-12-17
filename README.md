@@ -36,6 +36,10 @@ This part of the control system entails cross-fading orange and white LED strips
 
 ![image (1)](https://github.com/user-attachments/assets/96d03b23-0db9-43dd-92f4-10b768418a0c)
 
+Dimming is achieved using PWM, the process of rapidly switches LEDs on and off at a high frequency. 
+<img width="787" height="516" alt="image" src="https://github.com/user-attachments/assets/8a1079e4-142a-41ed-a50a-461cf7a289e9" />
+
+
 
 
 
