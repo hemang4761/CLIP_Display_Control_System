@@ -28,7 +28,7 @@ An Arduino with this code can replace the position of a rotary encoder, using tw
 
 Attached below is a video of the PDLC Film being controlled by our emulated rotary encoder.
 
-<iframe> https://github.com/user-attachments/assets/639e24a6-889c-4259-ac94-159d52258094 </iframe>
+https://github.com/user-attachments/assets/639e24a6-889c-4259-ac94-159d52258094
 
 <h2> LED Control: MOSFET & PWM Dimming </h2>
 
