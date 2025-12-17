@@ -1,6 +1,7 @@
 # CLIP Display: Automating A Climate Change Showcase
 
-This embedded systems project entails automatic control over a display showcase. This serves to inspire similar projects as well as provide a deeper understanding of the project requirements.
+This embedded systems project entails automatic control over a display showcase. This serves to inspire similar projects as well as provide a deeper understanding of the requirements to create such a system.
+Key Tools: Signal Processing, MOSFET, PWM, Arduino
 
 This specific display consists of a model Empire State Building encased in a PDLC Film Glass Chamber. Atop the display is rows of white and orange LED lights. The goal of the control system is to cross-fade the white and orange LED strips whilst simeltaneously increasing the opacity of the film. The increasing opacity acts as a visual representation of pollution surrounding the Empire State Building, while LEDs are used for dramatic effect. Below explains the process of designing this control system.
 
@@ -25,6 +26,9 @@ An Arduino with this code can replace the position of a rotary encoder, using tw
 
 
 https://github.com/user-attachments/assets/639e24a6-889c-4259-ac94-159d52258094
+
+<h2> LED Control: MOSFET & PWM Dimming </h2>
+
 
 
 
