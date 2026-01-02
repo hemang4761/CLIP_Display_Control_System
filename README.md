@@ -32,7 +32,7 @@ This part of the control system entails cross-fading orange and white LED strips
 
 
 <img width="960" height="540" alt="image (3)" src="https://github.com/user-attachments/assets/c909a65b-9b74-4992-874f-0aad23ab3f56" />
-*An important note: because we want our two PWM signals to be in sync, it is important to use PWM digital pins that are assigned to the same clock. Doing otherwise may result in a pulsing/flickering effect. We use pins 3 and 11 as both rely on an internal hardware component (Timer 2) to generate their PWM signals.
+*An important note: because the two PWM signals must be in sync, it is important to use PWM digital pins that are assigned to the same clock. Doing otherwise may result in a pulsing/flickering effect. I used pins 3 and 11 as both rely on Timer 2 (internal hardware component) to generate their PWM signals.
 
 
 
