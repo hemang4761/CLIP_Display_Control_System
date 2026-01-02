@@ -1,9 +1,6 @@
 # CLIP Display: Automating A Climate Change Showcase
 
-This embedded systems project entails automatic control over a display showcase. This serves to inspire similar projects as well as provide a deeper understanding of the requirements to create such a system.
-Key Tools: Signal Processing, MOSFET, PWM, Arduino
-
-This specific display consists of a model Empire State Building encased in a PDLC Film Glass Chamber. Atop the display is rows of white and orange LED lights. The goal of the control system is to cross-fade the white and orange LED strips whilst simeltaneously increasing the opacity of the film. The increasing opacity acts as a visual representation of pollution surrounding the Empire State Building, while LEDs are used for dramatic effect. Below explains the process of designing this control system.
+This embedded systems project entails automatic control over a display showcase. This display consists of a model Empire State Building encased in a PDLC Film Glass Chamber. Atop the display is rows of white and orange LED lights. The goal of the control system is to cross-fade the white and orange LED strips whilst simultaneously increasing the opacity of the film. The increasing opacity acts as a visual representation of pollution surrounding the Empire State Building, while LEDs are used for dramatic effect. This display is used to represent CLIP’s goals at various climate conventions. Below explains the process of designing this control system. Key Tools: Signal Processing, MOSFET, PWM, Arduino
 
 <h2> PDLC FILM & Signal Processing </h2>
 This smart film has the ability to switch between transparent and opaque states with an electrical current. By controlling the voltage, you can adjust the degree of crystal alignment. Notably, PDLC Flm uses a high AC current which cannot be supplied by a microcontroller. Typically, a voltage driver is used to provide AC current which can be manually controlled using a rotary encoder. We will use the digital pins of an Arduino to emulate the signal otherwise provided by a rotary encoder. 
