@@ -4,7 +4,7 @@ This embedded systems project entails automatic control over a display showcase.
 
 <h2> PDLC FILM & Signal Processing </h2>
 This smart film has the ability to switch between transparent and opaque states with an electrical current. Controlling the current adjusts the degree of crystal alignment, thereby increasing or decreasing the opacity. PDLC Film uses an AC current which cannot be supplied by a microcontroller. Typically, a voltage driver is used to provide current, manually controlled by a rotary encoder. I used the digital pins of an Arduino to emulate the signal otherwise provided by the rotary encoder. 
-
+<br>
 Rotary encoders convert the angular position or motion of a shaft into a digital or analog signal. A rotary encoder sends two square waves signals to a given driver. When rotated by one step, the two pins will connect and disconnect successively, resulting in a phase shift of 90 degrees. 
 (credit: 
 <a href="https://www.youtube.com/watch?v=v4BbSzJ-hz4" target="_blank">How To Mechatronics</a>)
@@ -28,8 +28,7 @@ This part of the control system entails cross-fading orange and white LED strips
 
 <img width="960" height="540" alt="image (3)" src="https://github.com/user-attachments/assets/c909a65b-9b74-4992-874f-0aad23ab3f56" />
 *An important note: because the two PWM signals must be in sync, it is important to use PWM digital pins that are assigned to the same clock. Doing otherwise may result in a pulsing/flickering effect. I used pins 3 and 11 as both rely on Timer 2 (internal hardware component) to generate their PWM signals.
-
-
+<br>
 Gamma correction is applied in the **light_control** code because while light scales linearly in terms of photon release, eyes perceive it logarithmically. Eyes are incredibly sensitive to changes in low light but much less sensitive to changes in bright light. Attached is a video of what the lights look like with the cross-fading. 
 
 https://github.com/user-attachments/assets/93ae3717-6dae-49f4-912f-ec8ee3ac6f49
